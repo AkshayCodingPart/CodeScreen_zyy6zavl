@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Project Template for UI developer coding exercise.",
   "author": "Medly Pharmacy",
+  "proxy": "http://localhost:3000/",
   "keywords": [
     "Medly",
     "UI Challenge"
@@ -11,6 +12,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open --mode development --hot",
+    "dev": "nodemon app.js",
     "build": "webpack --mode production",
     "test": "run-p test:jest",
     "test:jest": "jest --config config/jest/jest.config.js",
@@ -68,6 +70,10 @@
     "@stryker-mutator/core": "^2.5.0"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "imagemin-pngquant": "^5.0.1",
+    "nodemon": "^2.0.15",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "styled-components": "^5.0.1"

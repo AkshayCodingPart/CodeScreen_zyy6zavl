@@ -1,1 +1,1 @@
-module.exports = 'medly-test-file-stub';
+module.exports = 'Akshat Test';

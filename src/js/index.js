@@ -1,5 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App';
+import LayoutComponent from './components/App/LayoutComponent';
 
-render(<App />, document.getElementById('app'));
+render(
+    <LayoutComponent />,
+    document.getElementById('app')
+);
+
+

@@ -3,7 +3,7 @@
 exports[`<App /> should render successfully 1`] = `
 <div>
   <div>
-    Welcome to Medly Frontend Coding Challenge
+    Akshay Project
   </div>
 </div>
 `;
