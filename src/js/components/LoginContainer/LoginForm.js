@@ -17,6 +17,7 @@ export default class LoginForm extends React.Component {
     }
 
     onChange = (e) => {
+        console.log("e", e);
         const { target : { id, value } } = e;
         this.setState({
             [id]: value
